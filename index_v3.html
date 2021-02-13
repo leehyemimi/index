@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<!-- 모바일 -->
+<!-- <meta name="viewport" id="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,initial-scale=1.0" /> -->
+<!-- //모바일 -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<title>Web Publisher. Lee Hyewon</title>
+<link rel="stylesheet" href="css/base.css">
+<script src="js/jquery-1.9.1.js"></script>
+<script src="js/jquery_inview.js"></script>
+<script src="js/jquery.isotope.js"></script>
+<script src="js/jquery.scrollTo-min.js"></script>
+<script src="js/TweenMax.js"></script>
+<script src="js/publish.js"></script>
+<!-- IE Fix for HTML5 Tags -->
+<!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+</head>
+<body>
+	<!-- header -->
+	<div id="header">
+		<div class="header_container">
+			<div class="logo">
+				<a href="#">
+					Web UI Developer<br/>
+					<span class="name">Lee Hyewon</span> <!-- <span class="since">since 2009</span> -->
+				</a>
+			</div>
+			<div class="menu_select">
+				<ul class="navigation">
+					<li><a href="#about" class="active">ABOUT</a></li>
+					<li><a href="#work">WORK</a></li>
+					<li><a href="#skills">SKILLS</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!-- //header -->
+	<!-- about -->
+	<section id="about" class="section">
+		<div class="inner_box">
+			<h1 class="con_tit">ABOUT</h1>
+			<ul class="about_list">
+				<li><strong>NAME : </strong> Lee Hyewon</li>
+				<li><strong>BIRTH : </strong> 1986.02.21</li>
+				<!-- <li><strong>EMAIL : </strong> sunone222@gmail.com</li>
+				<li><strong>PHONE : </strong> 010 9876 0221</li> -->
+				<li><strong>CAREER : </strong>
+					<ol>
+						<li>2014.01 ~ : Hackers Education Group</li>
+						<li>2012.05 ~ 2013.12 : MOU Interactive</li>
+						<li>2010.09 ~ 2012.04 : JD Interactive</li>
+						<li>2007.05 ~ 2010.05 : WorldBridge T&amp;T</li>
+					</ol>
+				</li>
+			</ul>
+		</div>
+	</section>
+	<!-- //about -->
+	<!-- work -->
+	<section id="work" class="section">
+		<div class="inner_box">
+			<h1 class="con_tit">My works</h1>
+			<div class="portfolioFilter">
+				<a href="#" data-filter="*" class="current">All</a>
+				<a href="#" data-filter=".2017">2017</a>
+				<a href="#" data-filter=".2016">2016</a>
+				<a href="#" data-filter=".2015">2015</a>
+				<a href="#" data-filter=".2014">2014</a>
+				<a href="#" data-filter=".2013">2013</a>
+				<a href="#" data-filter=".2012">2012</a>
+				<a href="#" data-filter=".2011">2011</a>
+				<a href="#" data-filter=".2010">2010</a>
+				<a href="#" data-filter=".2009">2009 ~</a>
+			</div>
+			<p class="t_r white_color">- 년도를 클릭하면 년도별로 확인가능합니다.</p>
+			<ul class="works_list inview_con isotope portfolioContainer">
+				<li class="isotope-item 2017">
+					<a href="http://m.teacher.pass.com/" target="_blank">
+						<span class="more_img"></span>
+						<dl class="works_list_img">
+							<dt>
+								<strong>해커스 임용 모바일 구축(진행중)</strong>
+								<span class="txt">2016.01 ~ 2016.11</span>
+								<span class="skills">- html : 100%, css : 100%, jQuery : 100%</span>
+							</dt>
+							<dd>
+								<img src="img/work/works_list26.png" alt="해커스 임용" />
+							</dd>
+						</dl>
+					</a>
+				</li>
+				<li class="isotope-item 2017">
+					<a href="http://teacher.pass.com/" target="_blank">
+						<span class="more_img"></span>
+						<dl class="works_list_img">
+							<dt>
+								<strong>해커스 임용 구축</strong>
+								<span class="txt">2016.01 ~ 2016.11 (가이드 : http://dev-teacher.pass.com/pub_html/guide/layout.html)</span>
+								<span class="skills">- html : 100%, css : 100%, jQuery : 100%</span>
+							</dt>
+							<dd>
+								<img src="img/work/works_list27.png" alt="해커스 임용" />
+							</dd>
+						</dl>
+					</a>
+				</li>
+				<li class="isotope-item 2016">
+					<a href="http://www.champstudy.com/" target="_blank">
+						<span class="more_img"></span>
+						<dl class="works_list_img">
+							<dt>
+								<strong>해커스 인강 신규 구축(pc/m)</strong>
+								<span class="txt">2016.01 ~ 2016.11 (가이드 : http://www.hackers.com/publish_guide/)</span>
+								<span class="skills">- html : 100%, css : 100%, jQuery : 100%</span>
+							</dt>
+							<dd>
+								<img src="img/work/works_list24.png" alt="해커스 인강" />
+							</dd>
+						</dl>
+					</a>
+				</li>
+				<li class="isotope-item 2016">
+					<a href="http://www.hackerstalk.co.kr/" target="_blank">
+						<span class="more_img"></span>
+						<dl class="works_list_img">
+							<dt>
+								<strong>해커스 톡 신규 구축(pc/m)</strong>
+								<span class="txt">2016.01 ~ 2016.11</span>
+								<span class="skills">- html : 100%, css : 100%, jQuery : 100%</span>
+							</dt>
+							<dd>
+								<img src="img/work/works_list23.png" alt="해커스 톡" />
+							</dd>
+						</dl>
+					</a>
+				</li>
+				<li class="isotope-item 2015">
+					<a href="http://www.hackers.com/" target="_blank">
+						<span class="more_img"></span>
+						<dl class="works_list_img">
+							<dt>
+								<strong>해커스 닷컴 신규 구축</strong>
+								<span class="txt">2015.04 ~ 2015.05</span>
+								<span class="skills">- html : 100%, css : 100%, jQuery : 100%</span>
+							</dt>
+							<dd>
+								<img src="img/work/works_list22.png" alt="해커스 닷컴" />
+							</dd>
+						</dl>
+					</a>
+				</li>
+				<li class="isotope-item 2015">
+					<a href="http://www.hackers.ac/" target="_blank">
+						<span class="more_img"></span>
+						<dl class="works_list_img">
+							<dt>
+								<strong>해커스 어학원 개편 및 유지보수</strong>
+								<span class="txt">2015.01 ~ </span>
+								<span class="skills">- html : 100%, css : 100%, jQuery : 100%</span>
+							</dt>
+							<dd>
+								<img src="img/work/works_list21.png" alt="해커스 어학원" />
+							</dd>
+						</dl>
+					</a>
+				</li>
+				<li class="isotope-item 2014">
+					<a href="http://www.hackerschina.co.kr/" target="_blank">
+						<span class="more_img"></span>
+						<dl class="works_list_img">
+							<dt>
+								<strong>해커스 중국어 신규 구축</strong>
+								<span class="txt">2014.06 ~ 2014.08</span>
+								<span class="skills">- html : 100%, css : 100%, jQuery : 100%</span>
+							</dt>
+							<dd>
+								<img src="img/work/works_list20.png" alt="해커스 중국어" />
+							</dd>
+						</dl>
+					</a>
+				</li>
+				<li class="isotope-item 2014">
+					<a href="http://www.champstudy.com/" target="_blank">
+						<span class="more_img"></span>
+						<dl class="works_list_img">
+							<dt>
+								<strong>해커스 인강 웹사이트 유지보수 및 리뉴얼</strong>
+								<span class="txt">2014.01 ~ 2014.12</span>
+								<span class="skills">- html : 100%, css : 100%, jQuery : 100%</span>
+							</dt>
+							<dd>
+								<img src="img/work/works_list19.png" alt="해커스인강" />
+							</dd>
+						</dl>
+					</a>
+				</li>
+				<li class="isotope-item 2014">
+					<a href="http://www.hackers.co.kr/" target="_blank">
+						<span class="more_img"></span>
+						<dl class="works_list_img">
+							<dt>
+								<strong>해커스 영어 메인리뉴얼</strong>
+								<span class="txt">2014.01 ~ 2014.11</span>
+								<span class="skills">- html : 100%, css : 100%, jQuery : 100%</span>
+							</dt>
+							<dd>
+								<img src="img/work/works_list18.png" alt="해커스 영어" />
+							</dd>
+						</dl>
+					</a>
+				</li>
+				<li class="isotope-item 2013">
+					<a href="http://www.miraclehospital.com/" target="_blank">
+						<span class="more_img"></span>
+						<dl class="works_list_img">
+							<dt>
+								<strong>기적의 병원 웹사이트 구축</strong>
+								<span class="txt">2013.09 ~ 2013.10</span>
+								<span class="skills">- html : 100%, css : 100%, jQuery : 100%</span>
+							</dt>
+							<dd>
+								<img src="img/work/works_list17.png" alt="기적의 병원" />
+							</dd>
+						</dl>
+					</a>
+				</li>
+				<li class="isotope-item 2013">
+					<a href="#none">
+						<span class="more_img"></span>
+							<dl class="works_list_img">
+							<dt>
+								<strong>LGCNS 뱅킹 구축</strong>
+								<span class="txt">
+									웹 접근성 프로젝트<br/>
+									2013.07 ~ 2013.08
+								</span>
+								<span class="skills">- html : 100%, css : 100%, jQuery : 100%</span>
+							</dt>
+							<dd><img src="img/work/works_list15.png" alt="LGCNS" /></dd>
+						</dl>
+					</a>
+				</li>
+				<li class="isotope-item 2013">
+					<a href="https://www.kdb.co.kr/ih/simpleJsp.do" target="_blank">
+						<img src="img/img/wa_mark_2013.png" class="mark_img" alt="웹접근성 마크" />
+						<span class="more_img"></span>
+						<dl class="works_list_img">
+						<dt>
+							<strong>산업은행 홈페이지 구축</strong>
+							<span class="txt">
+								웹 접근성 프로젝트<br/>
+								2013.05 ~ 2013.07
+							</span>
+							<span class="skills">- html : 20%, css : 20%, 웹접근성 마크 획득</span>
+						</dt>
+						<dd><img src="img/work/works_list16.png" alt="산업은행" /></dd>
+					</dl>
+					</a>
+				</li>
+				<li class="isotope-item 2012 2013">
+					<a href="http://www.standardchartered.co.kr/" target="_blank">
+					<img src="img/img/wa_mark_2013.png" class="mark_img" alt="웹접근성 마크" />
+					<span class="more_img"></span>
+						<dl class="works_list_img">
+						<dt>
+							<strong>SC은행 반응형 웹사이트 구축</strong>
+							<span class="txt">
+								접근성 및 반응형 웹<br/>
+								2012.12 ~ 2013.04
+							</span>
+							<span class="skills">- html : 70%, css : 80%, jQuery : 80%, 웹접근성 마크 획득</span>
+						</dt>
+						<dd><img src="img/work/works_list14.png" alt="SC은행" /></dd>
+					</dl>
+					</a>
+				</li>
+				<li class="isotope-item 2012">
+					<a href="http://www.nhbank.com/nhbank/submain/submain_000000.jsp" target="_blank">
+					<img src="img/img/wa_mark_2013.png" class="mark_img" alt="웹접근성 마크" />
+					<span class="more_img"></span>
+						<dl class="works_list_img">
+						<dt>
+							<strong>NH농협은행 웹접근성</strong>
+							<span class="txt">
+								웹 접근성 프로젝트<br/>
+								2012.07 ~ 2012.10
+							</span>
+							<span class="skills">- html : 30%, css : 30%</span>
+						</dt>
+						<dd><img src="img/work/works_list13.png" alt="NH농협은행" /></dd>
+					</dl>
+					</a>
+				</li>
+				<li class="isotope-item 2012">
+					<a href="http://info.nonghyup.com/index_nacf.jsp" target="_blank">
+					<img src="img/img/wa_mark_2013.png" class="mark_img" alt="웹접근성 마크" />
+					<span class="more_img"></span>
+						<dl class="works_list_img">
+						<dt>
+							<strong>NH농축협 사이트 신규구축</strong>
+							<span class="txt">
+								웹 접근성 프로젝트<br/>
+								2012.07 ~ 2012.10
+							</span>
+							<span class="skills">- html : 100%, css : 100%, jQuery : 100%, 웹접근성 마크 획득</span>
+						</dt>
+						<dd><img src="img/work/works_list12.png" alt="NH농축협" /></dd>
+					</dl>
+					</a>
+				</li>
+				<li class="isotope-item 2012">
+					<a href="http://banking.nonghyup.com/nhbank.html" target="_blank">
+					<span class="more_img"></span>
+						<dl class="works_list_img">
+						<dt>
+							<strong>NH농협 e-금융확대개발</strong>
+							<span class="txt">
+								2012.07 ~ 2012.10
+							</span>
+							<span class="skills">- html : 100%, css : 100%, jQuery : 100%, 웹접근성 마크 획득</span>
+						</dt>
+						<dd><img src="img/work/works_list11.png" alt="NH농협" /></dd>
+					</dl>
+					</a>
+				</li>
+				<li class="isotope-item 2011 2012">
+					<a href="http://www.kbcard.com/" target="_blank">
+					<span class="more_img"></span>
+						<dl class="works_list_img">
+						<dt>
+							<strong>국민카드 사이트 리뉴얼</strong>
+							<span class="txt">
+								2011.11 ~ 2012.04
+							</span>
+							<span class="skills">- html : 80%, css : 80%, jQuery : 100%</span>
+						</dt>
+						<dd><img src="img/work/works_list10.png" alt="국민카드" /></dd>
+					</dl>
+					</a>
+				</li>
+				<li class="isotope-item 2011">
+					<a href="https://www.kbstar.com/" target="_blank">
+					<img src="img/img/wa_mark_2013.png" class="mark_img" alt="웹접근성 마크" />
+					<span class="more_img"></span>
+						<dl class="works_list_img">
+						<dt>
+							<strong>국민은행 오픈뱅킹</strong>
+							<span class="txt">
+								웹 접근성 프로젝트<br/>
+								2011.06 ~ 2011.11
+							</span>
+							<span class="skills">- html : 50%, css : 30%, 웹접근성 마크 획득</span>
+						</dt>
+						<dd><img src="img/work/works_list09.png" alt="국민은행" /></dd>
+					</dl>
+					</a>
+				</li>
+				<li class="isotope-item 2010 2011">
+					<a href="http://www.wooribank.com/" target="_blank">
+					<span class="more_img"></span>
+						<dl class="works_list_img">
+						<dt>
+							<strong>우리은행 웹사이트 리뉴얼</strong>
+							<span class="txt">
+								웹 접근성 프로젝트<br/>
+								2010.11 ~ 2011.03
+							</span>
+							<span class="skills">- html : 50%, css : 30%</span>
+						</dt>
+						<dd><img src="img/work/works_list08.png" alt="우리은행" /></dd>
+					</dl>
+					</a>
+				</li>
+				<li class="isotope-item 2010">
+					<a href="http://www.skview.co.kr/" target="_blank">
+					<span class="more_img"></span>
+						<dl class="works_list_img">
+						<dt>
+							<strong>SK VIEW 브랜드 사이트 구축</strong>
+							<span class="txt">
+								2010.09 ~ 2010.11
+							</span>
+							<span class="skills">- html : 100%, css : 100%, jQuery : 100%</span>
+						</dt>
+						<dd><img src="img/work/works_list07.png" alt="SK VIEW" /></dd>
+					</dl>
+					</a>
+				</li>
+				<li class="isotope-item 2010">
+					<a href="http://www.expo2012.kr/main.html" target="_blank">
+					<span class="more_img"></span>
+						<dl class="works_list_img">
+						<dt>
+							<strong>여수세계박람회 사이트 리뉴얼</strong>
+							<span class="txt">
+								웹 접근성 프로젝트<br/>
+								2010.09
+							</span>
+							<span class="skills">- html : 100%, css : 100%, jQuery : 100%</span>
+						</dt>
+						<dd><img src="img/work/works_list06.png" alt="여수박람회" /></dd>
+					</dl>
+					</a>
+				</li>
+				<li class="isotope-item 2010">
+					<a href="#none">
+					<span class="more_img"></span>
+						<dl class="works_list_img">
+						<dt>
+							<strong>비씨카드 모바일 어플구축</strong>
+							<span class="txt">
+								모바일 어플 프로젝트<br/>
+								2010.07 ~ 2010.09
+							</span>
+							<span class="skills">- html : 100%, css : 100%, jQuery : 100%</span>
+						</dt>
+						<dd><img src="img/work/works_list05.png" alt="비씨카드" /></dd>
+					</dl>
+					</a>
+				</li>
+				<li class="isotope-item 2010">
+					<a href="http://www.doosaninfracore.com/" target="_blank">
+					<span class="more_img"></span>
+						<dl class="works_list_img">
+						<dt>
+							<strong>두산인프라코어 다국어 웹사이트 구축</strong>
+							<span class="txt">
+								2010.01 ~ 2010.07
+							</span>
+							<span class="skills">- html : 30%, css : 30%</span>
+						</dt>
+						<dd><img src="img/work/works_list04.png" alt="두산인프라코어" /></dd>
+					</dl>
+					</a>
+				</li>
+				<li class="isotope-item 2009">
+					<a href="http://www.pmaa.or.kr/police/" target="_blank">
+					<span class="more_img"></span>
+						<dl class="works_list_img">
+						<dt>
+							<strong>경찰공제회 웹사이트 재구축</strong>
+							<span class="txt">
+								2008.01 ~ 2008.03
+							</span>
+							<span class="skills">- html : 100%, css : 100%, jQuery : 100%</span>
+						</dt>
+						<dd><img src="img/work/works_list03.png" alt="경찰공제회" /></dd>
+					</dl>
+					</a>
+				</li>
+				<li class="isotope-item 2009">
+					<a href="http://www.mmaa.or.kr/" target="_blank">
+					<span class="more_img"></span>
+						<dl class="works_list_img">
+						<dt>
+							<strong>군인공제회 웹사이트 구축</strong>
+							<span class="txt">
+								2007.05 ~ 2007.07
+							</span>
+							<span class="skills">- html : 100%, css : 100%, jQuery : 100%</span>
+						</dt>
+						<dd><img src="img/work/works_list02.png" alt="군인공제회" /></dd>
+					</dl>
+					</a>
+				</li>
+				<li class="isotope-item 2009">
+					<a href="http://www.gg.go.kr/gg/" target="_blank">
+					<span class="more_img"></span>
+						<dl class="works_list_img">
+						<dt>
+							<strong>경기도 홍보 웹사이트 구축</strong>
+							<span class="txt">
+								2007.01 ~ 2007.04
+							</span>
+							<span class="skills">- html : 100%, css : 100%, jQuery : 100%</span>
+						</dt>
+						<dd><img src="img/work/works_list01.png" alt="경기도 홍보" /></dd>
+					</dl>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</section>
+	<!-- //work -->
+	<!-- SKILLS -->
+	<section id="skills" class="section">
+		<div class="inner_box">
+			<h1 class="con_tit">Skills/Proficiencies</h1>
+			<ul class="skills_ico inview_con">
+				<li>
+					<a href="#none">
+						<img src="img/img/skills_ico1.png" alt="PhotoShop" />
+						<strong>PHOTOSHOP</strong>
+					</a>
+				</li>
+				<li class="html">
+					<a href="#none">
+						<img src="img/img/skills_ico2.png" alt="HTML/HTML5" />
+						<strong>HTML / HTML5</strong>
+					</a>
+				</li>
+				<li class="css">
+					<a href="#none">
+						<img src="img/img/skills_ico3.png" alt="CSS/CSS3" />
+						<strong>CSS / CSS3</strong>
+					</a>
+				</li>
+				<li class="w3c">
+					<a href="#none">
+						<img src="img/img/skills_ico4.png" alt="웹표준/웹접근성" />
+						<strong>웹표준 / 웹접근성</strong>
+					</a>
+				</li>
+				<li class="last">
+					<a href="#none">
+						<img src="img/img/skills_ico5.png" alt="JQUERY /Javascript" />
+						<strong>JQUERY / JAVASCRIPT</strong>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</section>
+	<!-- //SKILLS -->
+	<div class="layer">
+		<div class="bg"></div>
+		<div id="layer" class="pop-layer">
+			<img src="img/img/wa_mark_2013.png" class="mark_img" alt="웹접근성 마크" />
+			<div class="pop-container">
+				<div class="pop-conts">
+					<div class="ctxt mb20">
+						<strong>기적의 병원 웹사이트 구축</strong>
+						<p class="date">2013.09 ~ 2013.10 </p>
+						<p class="img"><img src="img/work/works_list17.png" alt=""/></p>
+						<p class="skill">
+							- html : 100%, css : 100%, jQuery : 100%
+						</p>
+					</div>
+					<div class="btn-r">
+						<a href="http://www.miraclehospital.com/" class="cbtn" target="_blank">LAUNCH SITE</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- copy -->
+	<section id="copy" class="section">
+		<div class="inner_box">
+			Copyright 2015. Web UI Developer-LHW. All right reserved.
+		</div>
+	</section>
+	<!--//copy -->
+</body>
+</html>
